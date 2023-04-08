@@ -1,0 +1,17 @@
+<html>
+    <head>
+    <title>MARKS PREDICTION</title>
+    </head>
+    <body>
+        <h1>
+            MARKS PREDICTION DEPENDING ON HOURS
+        </h1>
+    <form method="POST" action="/">
+        <input type="text" name="input" placeholder="Enter The Study Hours ">
+        <input type="submit">
+    </form>
+    {%if your_marks %}
+        <h1>Your Marks is: {{ your_marks }}</h1>
+    {% endif %}
+    </body>
+</html>
